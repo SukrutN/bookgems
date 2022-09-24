@@ -27,9 +27,10 @@ const AdvertWidget = () => {
         <Typography color={main}>goodreads</Typography>
         <Typography color={medium}>goodreads.com</Typography>
       </FlexBetween>
+
       <Typography color={medium} m="0.5rem 0">
-        Goodreads is the largest site for readers and book recommendations. Our
-        mission is to help people find and share books they love.
+        Goodreads is the largest site for readers and books. Our mission is to
+        help people find and share books they love.
       </Typography>
     </WidgetWrapper>
   );
