@@ -23,7 +23,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `http://localhost:5001/users/${_id}/${friendId}`,
+      `https://bookgems-backend.onrender.com/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {
