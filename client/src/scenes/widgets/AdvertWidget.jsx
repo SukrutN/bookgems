@@ -20,7 +20,7 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="advert"
-        src="https://bookgems-backend.onrender.com/assets/info3.jpeg"
+        src="http://localhost:5001/assets/info3.jpeg"
         style={{ borderRadius: "0.75rem", margin: "0.75rem 0" }}
       />
       <FlexBetween>
